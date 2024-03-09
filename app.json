@@ -3,6 +3,7 @@
     "name": "budget-planner-2.0",
     "slug": "budget-planner-2.0",
     "version": "1.0.0",
+    "scheme": "budget-planner-schema",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -25,6 +26,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
